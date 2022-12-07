@@ -1,0 +1,36 @@
+
+section{
+    background-image: url("./libros.webp");
+}
+
+.tabli{
+    width: 100vh;
+    height: 500px;
+    background-color: rgba(255,255,255, 0.7);
+    backdrop-filter: blur(14px);
+}
+.card img {
+    height: 100%;
+}
+
+.portada{
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: sticky;
+    
+}
+.scroll{
+    overflow: scroll;
+}
+
+.fijacion{
+   color: white;
+    position:sticky;
+    overflow:scroll;
+    top:300px;
+    background-color: black;
+}
